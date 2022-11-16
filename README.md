@@ -2,4 +2,5 @@
 
 This application was built with Javascript, HTML & CSS. Guess the correct answer, win points, and possibly win a POAP.
 
-Link to youtube video: https://www.youtube.com/watch?v=CqddbIrEM5I
+# References
+https://www.youtube.com/watch?v=CqddbIrEM5I
