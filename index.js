@@ -1,57 +1,57 @@
 const quizData = [
     {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
-        ans4: "Bitcoin has unlimited supply",
+        Qus: "What is the main difference between cryptocurrency and NFTs?",
+        ans1: "NFTs are not mutually interchangeable, while crypto can be exchanged with another crypto",
+        ans2: "There are no differences",
+        ans3: "NFTs are not unique and can be replicated",
+        ans4: "NFTs are traded like securities on digital exchange, but are not sold ",
         ans: "a",
     },
     {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
-        ans4: "Bitcoin has unlimited supply",
+        Qus: "What does 'DAO' stand for?",
+        ans1: "Decentralized Authority Operations",
+        ans2: "Data Access Organization",
+        ans3: "Distributed Autonomous Operations",
+        ans4: "Decentralized Autonomous Organization",
+        ans: "d",
+    },
+    {
+        Qus: "What is important when considering tokenomics?",
+        ans1: "Token burns",
+        ans2: "Mining and staking",
+        ans3: "Supply",
+        ans4: "All the above",
+        ans: "d",
+    },
+    {
+        Qus: "Who was one of the creators of Ethereum?",
+        ans1: "Satoshi Nakamoto",
+        ans2: "Vitalik Buterin",
+        ans3: "Mark Zuckerberg",
+        ans4: "Anatoly Yakovenko",
+        ans: "b",
+    },
+    {
+        Qus: "How is Decentralized Exchange (DEX) different than Centralized Exchange (CEX)?",
+        ans1: "DEX requires personal identity verification.",
+        ans2: "They are essentially the same.",
+        ans3: "DEX works upon smart contract technology with no control of any centralized entity.",
+        ans4: "DEX runs on its own platform.",
+        ans: "c",
+    },
+    {
+        Qus: "What was the Ethereum merge?",
+        ans1: "Ethereum adopting a proof-of-stake model",
+        ans2: "A conceptual model that may be implemented Ethereum's future",
+        ans3: "Ethereum adopting a proof-of-work model",
+        ans4: "A way to reduce Bitcoin's energy consumption",
         ans: "a",
     },
     {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
-        ans4: "Bitcoin has unlimited supply",
-        ans: "a",
-    },
-    {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
-        ans4: "Bitcoin has unlimited supply",
-        ans: "a",
-    },
-    {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
-        ans4: "Bitcoin has unlimited supply",
-        ans: "a",
-    },
-    {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
-        ans4: "Bitcoin has unlimited supply",
-        ans: "a",
-    },
-    {
-        Qus: "Aprox. how many Bitcoins are left to be mined?",
-        ans1: "2 million",
-        ans2: "None",
-        ans3: "4 million",
+        Qus: "What is the maximum number of bitcoins that can be mined?",
+        ans1: "21 million",
+        ans2: "0",
+        ans3: "19 million",
         ans4: "Bitcoin has unlimited supply",
         ans: "a",
     }
@@ -124,7 +124,7 @@ nextQueBtn.addEventListener("click", function () {
     else {
         queAndoptions.style.display = "none";
         first.style.display = "block"
-        head.innerText = "Great! Quiz has been over."
+        head.innerText = "Let's see how you did!"
         btn.style.display = "none"
         resultBtn.style.display = "block"
 

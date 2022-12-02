@@ -14,7 +14,8 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url("icons.jpeg");
+   /* background-image: url("icons.jpeg");*/
+    background-image: url("bg.png");
     color: #fff;
 
 }
